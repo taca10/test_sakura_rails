@@ -11,7 +11,7 @@ module TestSakuraRails
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
 
-    config.hosts << 'choli.org'
+    config.hosts << '.choli.org'
 
     config.time_zone = "Tokyo"
 
