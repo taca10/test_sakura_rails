@@ -10,9 +10,10 @@ module TestSakuraRails
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
-    config.time_zone = "Tokyo"
 
     config.hosts << 'choli.org'
+
+    config.time_zone = "Tokyo"
 
     config.autoload_paths += Dir["#{config.root}/app/models/*/"]
     config.autoload_paths += Dir["#{config.root}/app/resources/*/"]
