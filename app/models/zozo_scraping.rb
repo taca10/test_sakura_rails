@@ -1,5 +1,5 @@
 class ZozoScraping
-
+  require 'mechanize'
   def self.fetch_wear_page(url=nil)
     agent = Mechanize.new
     # p 'sucess'

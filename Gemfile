@@ -50,9 +50,16 @@ group :test do
   gem 'webdrivers'
 end
 
+group :staging, :production do
+
+  # Use Unicorn as the app server
+  gem "unicorn"
+  gem "mechanize"
+
+end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'unicorn'
 gem "mechanize"
 gem 'slack-ruby-client'
