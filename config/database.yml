@@ -64,4 +64,4 @@ production:
   adapter: mysql2
   database: test_sakura_rails
   username: root
-  host: rails_search_template
+  host: test_sakura_rails
