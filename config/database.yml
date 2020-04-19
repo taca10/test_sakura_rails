@@ -64,4 +64,4 @@ production:
   database: test_sakura_rails
   username: root
   password: Sakura-4155
-  host: test_sakura_rails
+  host: localhost
