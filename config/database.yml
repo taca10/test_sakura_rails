@@ -63,4 +63,5 @@ production:
   adapter: mysql2
   database: test_sakura_rails
   username: root
-  host: test_sakura_rails
+  password: Sakura-4155
+  host: localhost
