@@ -4,7 +4,7 @@ source ~/.bash_profile
 ## ファイルダウンロード
 git pull
 ## DBをMigrateしてしまう。
-bundle exec rails db:migrate
+bundle exec rails db:migrate RAILS_ENV=production
 ## 静的ファイルアップ
 bundle exec rails assets:precompile
 ## APサーバー再起動
